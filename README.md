@@ -104,10 +104,11 @@ The final report contains four pages:
 3. **Prices**
 4. **Sales Rank Forecast**
 
-I also created measures for metrics such as:
+I also used measures and built-in aggregations for metrics such as:
 
 - Average Sales Rank
 - Average Discount %
+- Average New Price
 - Total Months Analyzed
 
 Interactive slicers allow the report to be explored by brand and time period.
