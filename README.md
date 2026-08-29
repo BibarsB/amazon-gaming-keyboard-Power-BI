@@ -122,7 +122,7 @@ Some patterns that appeared in the historical data were:
 - **Asus generally showed lower Sales Rank values** and lower pricing during much of the observed period.
 - Lower prices were generally **associated with better Sales Rank values**.
 - **Razer showed noticeable changes in Sales Rank around discounting and promotional periods.**
-- Some stronger Sales Rank periods appeared around end-of-year months.
+- Higher discount periods were associated with stronger Sales Rank performance across all three brands, especially in Q4.  
 
 These are observational relationships.
 
@@ -136,8 +136,10 @@ Based on the historical patterns, the dashboard can support discussions around:
 
 - comparing which products showed stronger or more stable historical performance
 - reviewing pricing and discount strategies
-- planning promotions around periods that historically showed stronger performance
+- using seasonal Sales Rank patterns to identify weaker periods where targeted discounts or promotions may help support demand
 - considering historical performance when making stock-prioritization decisions
+
+For example, June showed weaker Sales Rank performance for some products, so targeted promotions could be tested during similar weak periods to support demand.
 
 These should be treated as **decision-support ideas rather than strict business recommendations**, since the dataset does not include every factor that can affect product demand.
 
@@ -166,8 +168,8 @@ The confidence intervals also become quite wide in some cases, so the forecasts 
 This project has several important limitations:
 
 - **Sales Rank is not the same as units sold.**
-- The dataset does not contain actual transaction-level sales volume.
-- Sales Rank is used only as a proxy for relative product performance.
+- The dataset does not contain actual sales transactions or units sold.
+- Sales Rank is used as an indicator of relative product performance.
 - The dataset does not include factors such as inventory levels, advertising, customer reviews, competitor activity, or marketing spend.
 - Relationships between price, discounts, and Sales Rank are observational, not causal.
 - The Power BI forecast is relatively simple and depends heavily on historical patterns continuing.
@@ -195,7 +197,7 @@ Through this project I practiced:
 - DAX
 - dashboard design
 - data visualization
-- exploratory business analysis
+- analyzing product performance and trends
 - translating data into business-oriented observations
 - basic forecasting in Power BI
 - recognizing limitations in analytical conclusions
